@@ -165,3 +165,12 @@ yarn dev
 
 原文链接
 https://dev.to/brojenuel/vite-vue-3-electron-5h4o
+
+git代理
+
+```shell
+git config --global http.proxy "socks5://127.0.0.1:7891"
+git config --global https.proxy "socks5://127.0.0.1:7891"
+# 端口号在代理软件上查看
+```
+
